@@ -128,7 +128,7 @@ def hero():
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=14, minute=55, second=0, microsecond=0)
+    First = now.replace(hour=1, minute=55, second=0, microsecond=0)
     Firstend = now.replace(hour=15, minute=35, second=0, microsecond=0)
     Second = now.replace(hour=15, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=16, minute=35, second=0, microsecond=0)
@@ -158,12 +158,18 @@ if(expirydate>today):
         print("01st Sept 2021, 05:00 PM- 05:30 PM")
         print("01st Sept 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
-        print("If you think it is an error contact admin on telegram @Prithvihackz ")
+        print("If you think it is an error contact admin on telegram @smsn_knt ")
 
 
 
 else:
     banner='figlet RXCE'
     system(banner)
+    print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
-    print(" on telegram -----------@Prithvihackz")
+    print(" on telegram ----@smsn_knt for activating")
+    print(" Recharge Amount :        Total limit " )
+    print(" 1.     1000 INR -------  1 Day (40 Games")
+    print(" 2.     5000 INR -------  7 Days(280 Games")
+    print("*---------*----------*-------------*----------*")
+    print("Your custom hack can be made request from us.")
