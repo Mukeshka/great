@@ -10,7 +10,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 9, 1)
+expirydate = datetime.date(20212, 9, 1)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -87,7 +87,7 @@ def hero():
             for digit in str(n):
                 sum += int(digit)
             return sum
-    	if i in thisway:
+        if i in thisway:
             m=getSum(current)
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
@@ -128,16 +128,16 @@ def hero():
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=1, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=15, minute=35, second=0, microsecond=0)
-    Second = now.replace(hour=15, minute=55, second=0, microsecond=0)
-    Secondend = now.replace(hour=16, minute=35, second=0, microsecond=0)
+    First = now.replace(hour=10, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=13, minute=55, second=0, microsecond=0)
+    Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
     Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
     Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
-    Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
-    Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
+    Final = now.replace(hour=19, minute=55, second=0, microsecond=0)
+    Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
 
-    if (now?First and now<Firstend):
+    if (now>First and now<Firstend):
             period=220
             hero()
     elif(now>Second and now<Secondend):
