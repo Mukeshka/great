@@ -190,7 +190,7 @@ else:
     Finalend = now.replace(hour=22, minute=35, second=0, microsecond=0)
 
     if(now>Second and now<Secondend):
-            rava=210
+            rava=230
     elif(now>Third and now<Thirdend):
             rava=350
     elif(now>Final and now<Finalend):
