@@ -12,7 +12,7 @@ from base64 import b64decode,b64encode
 from datetime import date
 from rich.console import Console
 from time import sleep
-from tqdm import tqdm
+
 from alive_progress import alive_bar
 
 
@@ -27,10 +27,6 @@ red="\033[3;31m"
 purple="\033[3;34m"
 yellow="\033[3;33m"
 voilet="\033[3;35m"
-def compute():
-    for i in range(1000):
-        ... # process items as usual.
-        yield  # insert this :)
 def hero():
     def load():
         # for i in tqdm(range(10)):
