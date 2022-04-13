@@ -10,7 +10,6 @@ import random
 import datetime
 from base64 import b64decode,b64encode
 from datetime import date
-from rich.console import Console
 from time import sleep
 
 from alive_progress import alive_bar
@@ -27,13 +26,14 @@ red="\033[3;31m"
 purple="\033[3;34m"
 yellow="\033[3;33m"
 voilet="\033[3;35m"
+
 def hero():
     def load():
         # for i in tqdm(range(10)):
         #     sleep(0.1)
-        with alive_bar(1000, force_tty=True) as bar:
-            for i in range(1000):
-                time.sleep(0.005)
+        with alive_bar(100, force_tty=True) as bar:
+            for i in range(100):
+                time.sleep(0.7)
                 bar()
 
             
@@ -53,17 +53,29 @@ def hero():
     
     system(banner)
     print(f"{red}Contact me on telegram @smsn_knt")
-    for i in range (10):
-        load()
+        
+    while(y):
+        clear()
+        system(banner)
+        print(f"{red}Contact me on telegram @smsn_knt")
         n = random.randint(1,30)
         if(n%2==0):
-            c="🔴  Red"
+            c=f"{red}🔴  Red"
         else:
-            c="🟢  Green"
-        print(f"{red}  Period          ",     f"{green}     Colour")
+            c=f"{green}🟢  Green"
+        print(f"{red}  Period          ", f"{neon}"    ,   load(),     f"{green}     Colour")
         print(f"{yellow}",newperiod,"            ",c)
-        newperiod+=1
-        time.sleep(3)
+        newperiod+=1       
+        y=input("Do you want to play : Press 1 and 0 to exit \n")
+        if(y==0):
+            y=False
+        if (len(numbers)>11):
+            clear()
+            system('figlet Thank you!!')
+            print("Play on next specified time!!")
+            print("-----------Current Time UP----------")
+            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+            #print(numbers)
     numbers.append(newperiod)
     #y=input("Do you want to play : Press 1 and 0 to exit \n")
     #if(y==0):
