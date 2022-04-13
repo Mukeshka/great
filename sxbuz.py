@@ -11,7 +11,6 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 from time import sleep
-
 from alive_progress import alive_bar
 
 
@@ -33,7 +32,7 @@ def hero():
         #     sleep(0.1)
         with alive_bar(100, force_tty=True) as bar:
             for i in range(100):
-                time.sleep(0.7)
+                time.sleep(0.73)
                 bar()
 
             
@@ -48,40 +47,52 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet SxBuz|lolcat'
+    banner='figlet SxBuz 1.0|lolcat'
     numbers=[]
     
     system(banner)
     print(f"{red}Contact me on telegram @smsn_knt")
-        
+    now = datetime.datetime.now()
+    First = now.replace(hour=14, minute=38, second=0, microsecond=0)
+    Firstend = now.replace(hour=14, minute=39, second=0, microsecond=0)
     while(y):
-        clear()
-        system(banner)
-        print(f"{red}Contact me on telegram @smsn_knt")
-        n = random.randint(1,30)
-        if(n%2==0):
-            c=f"{red}🔴  Red"
-        else:
-            c=f"{green}🟢  Green"
-        print(f"{red}  Period          ", f"{neon}"    ,   load(),     f"{green}     Colour")
-        print(f"{yellow}",newperiod,"            ",c)
-        newperiod+=1       
-        y=input("Do you want to play : Press 1 and 0 to exit \n")
-        if(y==0):
-            y=False
-        if (len(numbers)>11):
-            clear()
-            system('figlet Thank you!!')
-            print("Play on next specified time!!")
-            print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+        now = datetime.datetime.now()
+        if(now < First):
+            clear
+            system(banner)
+            print("Wait Hack will start .....")
+        elif (now>First and now<Firstend):
+             clear()
+             system(banner)
+             print(f"{red}Contact me on telegram @smsn_knt")
+             n = random.randint(1,30)
+             if(n%2==0):
+                 c=f"{red}🔴  Red"
+             else:
+                 c=f"{green}🟢  Green"
+             print(f"{red}  Period          ", f"{neon}"    ,   load(),     f"{green}     Colour")
+             print(f"{yellow}",newperiod,"            ",c)
+             newperiod+=1       
+             y=input("Do you want to play : Press 1 and 0 to exit \n")
+             if(y==0):
+                 y=False
+             if (len(numbers)>11):
+                 clear()
+                 system('figlet Thank you!!')
+                 print("Play on next specified time!!")
+                 print("-----------Current Time UP----------")
+                 sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
             #print(numbers)
+        else:
+            clear
+            break
     numbers.append(newperiod)
     #y=input("Do you want to play : Press 1 and 0 to exit \n")
     #if(y==0):
      #   y=False
     #if (len(numbers)>11):
     clear()
+    system(banner)
     system('figlet Thank you!!')
     print("Play on next specified time!!")
     print("-----------Current Time UP----------")
@@ -115,7 +126,7 @@ if(expirydate>today):
             period=360
             hero()
     else:
-        banner='figlet SxBuz'
+        banner='figlet SxBuz 1.0'
         system(banner)
         #print(f"{red}"Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
@@ -144,7 +155,7 @@ else:
     test="SASCX3"
     night="NAW3"
     nextday="DXS"
-    banner='figlet SxBuz|lolcat'
+    banner='figlet SxBuz 1.0|lolcat'
     rava=20220414220
     now = datetime.datetime.now()
     Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
@@ -238,7 +249,7 @@ else:
             sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
         else:
             clear()
-            banner='figlet SxBuz|lolcat'
+            banner='figlet SxBuz 1.0|lolcat'
             system(banner)
             print("Incorrect Activation Code :")
      
