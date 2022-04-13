@@ -53,8 +53,8 @@ def hero():
     system(banner)
     print(f"{red}Contact me on telegram @smsn_knt")
     now = datetime.datetime.now()
-    First = now.replace(hour=14, minute=38, second=0, microsecond=0)
-    Firstend = now.replace(hour=14, minute=39, second=0, microsecond=0)
+    First = now.replace(hour=14, minute=43, second=0, microsecond=0)
+    Firstend = now.replace(hour=14, minute=44, second=0, microsecond=0)
     while(y):
         now = datetime.datetime.now()
         if(now < First):
@@ -62,6 +62,8 @@ def hero():
             system(banner)
             print("Wait Hack will start .....")
         elif (now>First and now<Firstend):
+            while(True):
+
              clear()
              system(banner)
              print(f"{red}Contact me on telegram @smsn_knt")
@@ -73,10 +75,11 @@ def hero():
              print(f"{red}  Period          ", f"{neon}"    ,   load(),     f"{green}     Colour")
              print(f"{yellow}",newperiod,"            ",c)
              newperiod+=1       
+             numbers.append(newperiod)
              y=input("Do you want to play : Press 1 and 0 to exit \n")
              if(y==0):
                  y=False
-             if (len(numbers)>11):
+             if (len(numbers)>9):
                  clear()
                  system('figlet Thank you!!')
                  print("Play on next specified time!!")
@@ -86,7 +89,7 @@ def hero():
         else:
             clear
             break
-    numbers.append(newperiod)
+    
     #y=input("Do you want to play : Press 1 and 0 to exit \n")
     #if(y==0):
      #   y=False
