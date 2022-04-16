@@ -58,11 +58,12 @@ def hero():
     while(y):
         now = datetime.datetime.now()
         if(now < First):
-            clear
+            clear()
             system(banner)
             print("Wait Hack will start on the time .....")
             print("You can wait for time or Exit")
             time.sleep(10)
+            clear()
         elif (now>First and now<Firstend):
             while(True):
 
