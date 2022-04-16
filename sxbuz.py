@@ -53,8 +53,8 @@ def hero():
     system(banner)
     print(f"{red}Contact me on telegram @smsn_knt")
     now = datetime.datetime.now()
-    First = now.replace(hour=14, minute=43, second=0, microsecond=0)
-    Firstend = now.replace(hour=14, minute=44, second=0, microsecond=0)
+    First = now.replace(hour=14, minute=30, second=0, microsecond=0)
+    Firstend = now.replace(hour=14, minute=33, second=0, microsecond=0)
     while(y):
         now = datetime.datetime.now()
         if(now < First):
@@ -159,7 +159,7 @@ else:
     night="NAW3"
     nextday="DXS"
     banner='figlet SxBuz 1.0|lolcat'
-    rava=20220414220
+    rava=20220414290
     now = datetime.datetime.now()
     Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=14, minute=55, second=0, microsecond=0)
@@ -169,7 +169,7 @@ else:
     Finalend = now.replace(hour=22, minute=35, second=0, microsecond=0)
 
     if(now>Second and now<Secondend):
-            rava=20220414220
+            rava=20220414290
     elif(now>Third and now<Thirdend):
             rava=350
     elif(now>Final and now<Finalend):
@@ -179,11 +179,11 @@ else:
     print("Your hack has expired--- Please contact")
     print(" on telegram ----@smsn_knt for activating")
     print("     Plan Amount --    Total limit " )
-    print(" 1.  1000 INR -------  1 Day (30 Games")
-    print(" 2.  2500 INR -------  3 Days(90 Games")
-    print(" 2.  5000 INR ------- 7 Days(210 Games")
+    print(" 1.  2000 INR -------  1 Day (10 Games")
+    #print(" 2.  2500 INR -------  3 Days(90 Games")
+    #print(" 2.  5000 INR ------- 7 Days(210 Games")
     print("*---------*----------*-------------*----------*")
-    print("If you need any discount contact me")
+    #print("If you need any discount contact me")
     print("Beware of fraudsters!!!")
     while(True):
         print("My banking name is SUNNY KUMAR")
@@ -211,7 +211,7 @@ else:
             print(f"If you think it is an {red}error {yellow}contact {green}me ")
             print(f"{neon}On Telegram {red}@smsn_knt")
             print("wait.... starting....")
-            #time.sleep(20)
+            time.sleep(20)
             period=rava
             hero()
             #print("Today Server is off RXCE try tomorrow ")
