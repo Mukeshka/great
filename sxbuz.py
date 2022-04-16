@@ -60,7 +60,9 @@ def hero():
         if(now < First):
             clear
             system(banner)
-            print("Wait Hack will start .....")
+            print("Wait Hack will start on the time .....")
+            print("You can wait for time or Exit")
+            time.sleep(10)
         elif (now>First and now<Firstend):
             while(True):
 
@@ -204,7 +206,7 @@ else:
             clear()
             print("You have bought hack for 1 day")
             print(f"{purple}---------------Your play time----------------")
-            print("13th Apr 2022, 10:30 AM - 11:00 AM")
+            print("13th Apr 2022, 02:30 PM - 03:00 PM")
 #             print("7th Apr 2022, 05:30 PM- 06:00 PM")
 #             print("7th Apr 2022, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
