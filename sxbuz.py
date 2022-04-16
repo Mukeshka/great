@@ -53,8 +53,8 @@ def hero():
     system(banner)
     print(f"{red}Contact me on telegram @smsn_knt")
     now = datetime.datetime.now()
-    First = now.replace(hour=14, minute=30, second=0, microsecond=0)
-    Firstend = now.replace(hour=14, minute=33, second=0, microsecond=0)
+    First = now.replace(hour=13, minute=00, second=0, microsecond=0)
+    Firstend = now.replace(hour=13, minute=03, second=0, microsecond=0)
     while(y):
         now = datetime.datetime.now()
         if(now < First):
@@ -162,7 +162,7 @@ else:
     night="NAW3"
     nextday="DXS"
     banner='figlet SxBuz 1.0|lolcat'
-    rava=20220414290
+    rava=20220414261
     now = datetime.datetime.now()
     Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=14, minute=55, second=0, microsecond=0)
@@ -172,7 +172,7 @@ else:
     Finalend = now.replace(hour=22, minute=35, second=0, microsecond=0)
 
     if(now>Second and now<Secondend):
-            rava=20220414290
+            rava=20220414261
     elif(now>Third and now<Thirdend):
             rava=350
     elif(now>Final and now<Finalend):
@@ -207,7 +207,7 @@ else:
             clear()
             print("You have bought hack for 1 day")
             print(f"{purple}---------------Your play time----------------")
-            print("13th Apr 2022, 02:30 PM - 03:00 PM")
+            print("13th Apr 2022, 01:00 PM - 01:30 PM")
 #             print("7th Apr 2022, 05:30 PM- 06:00 PM")
 #             print("7th Apr 2022, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
