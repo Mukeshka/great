@@ -53,8 +53,8 @@ def hero():
     system(banner)
     print(f"{red}Contact me on telegram @smsn_knt")
     now = datetime.datetime.now()
-    First = now.replace(hour=14, minute=30, second=0, microsecond=0)
-    Firstend = now.replace(hour=14, minute=33, second=0, microsecond=0)
+    First = now.replace(hour=17, minute=0, second=0, microsecond=0)
+    Firstend = now.replace(hour=17, minute=3, second=0, microsecond=0)
     while(y):
         now = datetime.datetime.now()
         if(now < First):
@@ -155,7 +155,7 @@ else:
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    code="BNHG23"
+    code="BNHG43"
     code1="BXMKMF3"
     code2="AFA6"
     test="SASCX3"
