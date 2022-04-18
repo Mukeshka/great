@@ -274,7 +274,7 @@ else:
             print(f"If you think it is an {red}error {yellow}contact {green}me ")
             print(f"{neon}On Telegram {red}@smsn_knt")
             print("wait.... starting....")
-            time.sleep(2)
+            time.sleep(20)
             period=rava
             hero()
             #print("Today Server is off RXCE try tomorrow ")
@@ -289,7 +289,7 @@ else:
             banner='figlet RXCEV5.1|lolcat'
             system(banner)
             print("----------Your play time-----------")
-            print("30th-1st feb 2021, 02:30 PM- 03:00 PM")
+            print("30th-1st feb 2021, 02:00 PM- 02:30 PM")
             print("30th-1st feb 2021, 06:00 PM- 06:30 PM")
             print("30th-1st feb 2021, 08:30 PM- 09:00 PM")
             print("Please play on the given time, and ")
